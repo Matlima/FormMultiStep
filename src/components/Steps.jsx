@@ -1,6 +1,6 @@
 import "./Steps.css"
-import {AiOutlineUser, AiOutlineStar} from 'react-icons/ai'
-import { FiSend } from "react-icons/fi"
+import {AiOutlineUser, AiOutlineStar} from 'react-icons/ai';
+import { FiSend } from 'react-icons/fi';
 
 const Steps = ({ currentStep }) => {
   return (
