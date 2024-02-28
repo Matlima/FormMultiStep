@@ -14,7 +14,7 @@
     fill: #7076f4;
 }
 
-.score-container input:checked  svg {
+.score-container input:checked ~ svg {
     fill: #7076f4;
 }
 
