@@ -1,9 +1,10 @@
 import React from 'react'
-import {BsFillEmojuHeartEyesFill,
+import { BsFillEmojiHeartEyesFill,
 BsFillEmojiSmileFill,
 BsFillEmojiNeutralFill,
 BsFillEmojiFrownFill,
 } from "react-icons/bs";
+
 
 import "./ReviewForm.css";
 
@@ -28,7 +29,7 @@ const ReviewForm = () => {
         </label>
         <label className="radio-container">
           <input type="radio" value="very_satisfied" name="review" required />
-          <BsFillEmojuHeartEyesFill />
+          <BsFillEmojiHeartEyesFill />
           <p>Muito satisfeito</p>
         </label>
       </div>
